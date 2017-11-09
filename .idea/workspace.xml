@@ -435,7 +435,14 @@
       <option name="project" value="LOCAL" />
       <updated>1510220064213</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="changes">
+      <created>1510220074714</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1510220074714</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -508,7 +515,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add preorder traversal" />
     <MESSAGE value="add preorder traversal tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="add preorder traversal tests" />
+    <MESSAGE value="changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

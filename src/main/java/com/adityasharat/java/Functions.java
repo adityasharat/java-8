@@ -1,7 +1,6 @@
 package com.adityasharat.java;
 
 import com.adityasharat.java.trees.Node;
-import com.sun.istack.internal.NotNull;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -49,6 +48,10 @@ public class Functions {
         return inOrder(node, new ArrayList<>());
     }
 
+    public static List<String> preOrder(Node node) {
+        return preOrder(node, new ArrayList<>());
+    }
+
     private static List<String> inOrder(Node node, List<String> result) {
 
         if (node.left != null) {
@@ -59,6 +62,21 @@ public class Functions {
 
         if (node.right != null) {
             inOrder(node.right, result);
+        }
+
+        return result;
+    }
+
+    private static List<String> preOrder(Node node, List<String> result) {
+
+        result.add(node.value != null ? node.value.toString() : "NULL");
+
+        if (node.left != null) {
+            preOrder(node.left, result);
+        }
+
+        if (node.right != null) {
+            preOrder(node.right, result);
         }
 
         return result;

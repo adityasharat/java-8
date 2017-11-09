@@ -14,9 +14,9 @@ class InOrderTest {
     @Test
     public void run() {
 
-        Node<String> _1 =  new Node<>("1");
+        Node<String> _1 = new Node<>("1");
         Node<String> _2 = new Node<>("2");
-        Node<String> _3 =  new Node<>("3");
+        Node<String> _3 = new Node<>("3");
         Node<String> _4 = new Node<>("4");
         Node<String> _5 = new Node<>("5");
 

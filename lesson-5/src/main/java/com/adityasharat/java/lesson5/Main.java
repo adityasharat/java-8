@@ -1,4 +1,4 @@
-package com.adityasharat.java;
+package com.adityasharat.java.lesson5;
 
 public class Main {
 

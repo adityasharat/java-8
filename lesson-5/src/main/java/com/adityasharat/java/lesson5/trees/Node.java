@@ -1,4 +1,4 @@
-package com.adityasharat.java.trees;
+package com.adityasharat.java.lesson5.trees;
 
 /**
  * @author Aditya Sharat

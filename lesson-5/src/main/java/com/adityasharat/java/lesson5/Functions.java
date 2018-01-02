@@ -1,6 +1,6 @@
-package com.adityasharat.java;
+package com.adityasharat.java.lesson5;
 
-import com.adityasharat.java.trees.Node;
+import com.adityasharat.java.lesson5.trees.Node;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,6 +1,7 @@
-package com.adityasharat.java.trees;
+package com.adityasharat.java.lesson5.trees;
 
-import com.adityasharat.java.Functions;
+
+import com.adityasharat.java.lesson5.Functions;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;

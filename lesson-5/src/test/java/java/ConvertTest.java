@@ -1,5 +1,6 @@
-package com.adityasharat.java;
+package java;
 
+import com.adityasharat.java.lesson5.Functions;
 import org.junit.jupiter.api.Test;
 
 /**

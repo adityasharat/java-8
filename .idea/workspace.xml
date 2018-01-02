@@ -421,7 +421,14 @@
       <option name="project" value="LOCAL" />
       <updated>1514881663750</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add new module">
+      <created>1514881687316</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1514881687316</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -496,7 +503,8 @@
     <MESSAGE value="add preorder traversal tests" />
     <MESSAGE value="changes" />
     <MESSAGE value="reorganize the project" />
-    <option name="LAST_COMMIT_MESSAGE" value="reorganize the project" />
+    <MESSAGE value="add new module" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new module" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

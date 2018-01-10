@@ -1,6 +1,7 @@
 package com.adityasharat.java.lesson1;
 
 import java.util.Objects;
+import java.util.StringJoiner;
 
 /**
  * @author Aditya Sharat
@@ -19,9 +20,9 @@ public class Strings {
 
 
         String hello1 = "Hello !!";
-        String hello2 = "Hello !!";
+        String hello2 = hello();
 
-        if (hello1 == hello2) { // == does not compare non primitive types (expect Wrappers)
+        if (hello1 == hello2) { // == does not compare non primitive types (except primitive wrappers)
             System.out.println("hello1 == hello2");
         } else {
             System.out.println("hello1 != hello2");
@@ -35,4 +36,9 @@ public class Strings {
 
     }
 
+    private static String hello() {
+        StringJoiner joiner = new StringJoiner("");
+        joiner.add("H").add("e").add("l").add("l").add("o").add(" !!");
+        return joiner.toString();
+    }
 }

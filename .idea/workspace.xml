@@ -512,7 +512,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1510069733888</updated>
-      <workItem from="1515581532470" duration="1588000" />
+      <workItem from="1515581532470" duration="1604000" />
     </task>
     <task id="LOCAL-00001" summary="add preorder traversal">
       <created>1510220029868</created>
@@ -626,7 +626,14 @@
       <option name="project" value="LOCAL" />
       <updated>1515583122479</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="add Kingdom">
+      <created>1515583139426</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1515583139426</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -662,7 +669,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1588000" />
+    <option name="totallyTimeSpent" value="1604000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
@@ -714,7 +721,8 @@
     <MESSAGE value="Strings" />
     <MESSAGE value="add lesson-2 module" />
     <MESSAGE value="add Domain" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Domain" />
+    <MESSAGE value="add Kingdom" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Kingdom" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

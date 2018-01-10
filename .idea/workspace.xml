@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3bad6f63-2a1e-4bed-970a-e1bc69cf177d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -515,7 +512,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1510069733888</updated>
-      <workItem from="1515581532470" duration="1530000" />
+      <workItem from="1515581532470" duration="1558000" />
     </task>
     <task id="LOCAL-00001" summary="add preorder traversal">
       <created>1510220029868</created>
@@ -615,7 +612,14 @@
       <option name="project" value="LOCAL" />
       <updated>1515581840312</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="add lesson-2 module">
+      <created>1515583093456</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1515583093456</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -651,7 +655,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1530000" />
+    <option name="totallyTimeSpent" value="1558000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
@@ -701,7 +705,8 @@
     <MESSAGE value="changes" />
     <MESSAGE value="primitives" />
     <MESSAGE value="Strings" />
-    <option name="LAST_COMMIT_MESSAGE" value="Strings" />
+    <MESSAGE value="add lesson-2 module" />
+    <option name="LAST_COMMIT_MESSAGE" value="add lesson-2 module" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

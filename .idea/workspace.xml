@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3bad6f63-2a1e-4bed-970a-e1bc69cf177d" name="Default" comment="moview">
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/lesson-2/src/main/java/com/adityasharat/java/lesson2/Class.java" afterPath="$PROJECT_DIR$/lesson-2/src/main/java/com/adityasharat/java/lesson2/life/Class.java" />
       <change beforePath="$PROJECT_DIR$/lesson-2/src/main/java/com/adityasharat/java/lesson2/Domain.java" afterPath="$PROJECT_DIR$/lesson-2/src/main/java/com/adityasharat/java/lesson2/life/Domain.java" />
@@ -526,7 +527,7 @@
       <option name="presentableId" value="Default" />
       <updated>1510069733888</updated>
       <workItem from="1515581532470" duration="1671000" />
-      <workItem from="1515662298747" duration="379000" />
+      <workItem from="1515662298747" duration="995000" />
     </task>
     <task id="LOCAL-00001" summary="add preorder traversal">
       <created>1510220029868</created>
@@ -682,7 +683,14 @@
       <option name="project" value="LOCAL" />
       <updated>1515583613766</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="untrack .idea/workspace.xml">
+      <created>1515662726874</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1515662726874</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -718,7 +726,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2397000" />
+    <option name="totallyTimeSpent" value="3013000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -775,7 +783,8 @@
     <MESSAGE value="add Kingdom" />
     <MESSAGE value="add new class" />
     <MESSAGE value="git ignore update" />
-    <option name="LAST_COMMIT_MESSAGE" value="git ignore update" />
+    <MESSAGE value="untrack .idea/workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="untrack .idea/workspace.xml" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

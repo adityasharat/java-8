@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3bad6f63-2a1e-4bed-970a-e1bc69cf177d" name="Default" comment="moview">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lesson-2/src/main/java/com/adityasharat/java/lesson2/Class.java" afterPath="$PROJECT_DIR$/lesson-2/src/main/java/com/adityasharat/java/lesson2/life/Class.java" />
-      <change beforePath="$PROJECT_DIR$/lesson-2/src/main/java/com/adityasharat/java/lesson2/Domain.java" afterPath="$PROJECT_DIR$/lesson-2/src/main/java/com/adityasharat/java/lesson2/life/Domain.java" />
-      <change beforePath="$PROJECT_DIR$/lesson-2/src/main/java/com/adityasharat/java/lesson2/Family.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lesson-2/src/main/java/com/adityasharat/java/lesson2/Genus.java" afterPath="$PROJECT_DIR$/lesson-2/src/main/java/com/adityasharat/java/lesson2/life/Genus.java" />
-      <change beforePath="$PROJECT_DIR$/lesson-2/src/main/java/com/adityasharat/java/lesson2/Kingdom.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lesson-2/src/main/java/com/adityasharat/java/lesson2/Order.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lesson-2/src/main/java/com/adityasharat/java/lesson2/Phylum.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lesson-2/src/main/java/com/adityasharat/java/lesson2/Species.java" afterPath="" />
+    <list default="true" id="3bad6f63-2a1e-4bed-970a-e1bc69cf177d" name="Default" comment="refactor">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/lesson-2/src/main/java/com/adityasharat/java/lesson2/life/Domain.java" afterPath="$PROJECT_DIR$/lesson-2/src/main/java/com/adityasharat/java/lesson2/life/Domain.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/lesson-1/target/" />
@@ -42,15 +35,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Domain.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Domain.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lesson-2/src/main/java/com/adityasharat/java/lesson2/life/Domain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="195">
+              <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="docComment;class#Domain#0" expanded="true" />
-                <element signature="e#217#218#0" expanded="true" />
-                <element signature="e#249#250#0" expanded="true" />
+                <element signature="e#281#282#0" expanded="true" />
+                <element signature="e#313#314#0" expanded="true" />
+                <element signature="e#344#345#0" expanded="true" />
+                <element signature="e#371#372#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -59,8 +55,8 @@
       <file leaf-file-name="Kingdom.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lesson-2/src/main/java/com/adityasharat/java/lesson2/life/Kingdom.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="270">
+              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -76,7 +72,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Class.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Class.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lesson-2/src/main/java/com/adityasharat/java/lesson2/life/Class.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
@@ -199,6 +195,7 @@
         <option value="$PROJECT_DIR$/lesson-2/src/main/java/com/adityasharat/java/lesson2/Species.java" />
         <option value="$PROJECT_DIR$/lesson-2/src/main/java/com/adityasharat/java/lesson2/Entity.java" />
         <option value="$PROJECT_DIR$/lesson-2/src/main/java/com/adityasharat/java/lesson2/life/Class.java" />
+        <option value="$PROJECT_DIR$/lesson-2/src/main/java/com/adityasharat/java/lesson2/life/Domain.java" />
       </list>
     </option>
   </component>
@@ -316,6 +313,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="lesson2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-tutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-tutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson-2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson2" type="462c0819:PsiDirectoryNode" />
+              <item name="life" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -526,7 +533,7 @@
       <option name="presentableId" value="Default" />
       <updated>1510069733888</updated>
       <workItem from="1515581532470" duration="1671000" />
-      <workItem from="1515662298747" duration="1012000" />
+      <workItem from="1515662298747" duration="1420000" />
     </task>
     <task id="LOCAL-00001" summary="add preorder traversal">
       <created>1510220029868</created>
@@ -696,7 +703,21 @@
       <option name="project" value="LOCAL" />
       <updated>1515663333391</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="refactor">
+      <created>1515663361043</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1515663361043</updated>
+    </task>
+    <task id="LOCAL-00026" summary="refactor">
+      <created>1515663432794</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1515663432794</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -732,7 +753,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3030000" />
+    <option name="totallyTimeSpent" value="3438000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -791,7 +812,8 @@
     <MESSAGE value="git ignore update" />
     <MESSAGE value="untrack .idea/workspace.xml" />
     <MESSAGE value="untrack file" />
-    <option name="LAST_COMMIT_MESSAGE" value="untrack file" />
+    <MESSAGE value="refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -813,9 +835,12 @@
         <state relative-caret-position="150">
           <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="docComment;class#Domain#0" expanded="true" />
-            <element signature="e#217#218#0" expanded="true" />
-            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#281#282#0" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1079,16 +1104,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson-2/src/main/java/com/adityasharat/java/lesson2/Entity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="docComment;class#Entity#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lesson-2/src/main/java/com/adityasharat/java/lesson2/life/Family.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1098,14 +1113,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lesson-2/src/main/java/com/adityasharat/java/lesson2/life/Phylum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson-2/src/main/java/com/adityasharat/java/lesson2/life/Kingdom.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
@@ -1129,18 +1136,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson-2/src/main/java/com/adityasharat/java/lesson2/life/Domain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="docComment;class#Domain#0" expanded="true" />
-            <element signature="e#217#218#0" expanded="true" />
-            <element signature="e#249#250#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lesson-2/src/main/java/com/adityasharat/java/lesson2/life/Genus.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1154,6 +1149,39 @@
         <state relative-caret-position="270">
           <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson-2/src/main/java/com/adityasharat/java/lesson2/life/Kingdom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson-2/src/main/java/com/adityasharat/java/lesson2/Entity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#Entity#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson-2/src/main/java/com/adityasharat/java/lesson2/life/Domain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#Domain#0" expanded="true" />
+            <element signature="e#281#282#0" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

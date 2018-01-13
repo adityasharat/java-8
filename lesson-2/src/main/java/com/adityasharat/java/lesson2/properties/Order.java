@@ -1,6 +1,5 @@
-package com.adityasharat.java.lesson2.life;
+package com.adityasharat.java.lesson2.properties;
 
-import com.adityasharat.java.lesson2.Property;
 import com.sun.istack.internal.NotNull;
 
 /**

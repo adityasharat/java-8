@@ -5,7 +5,7 @@ import com.sun.istack.internal.NotNull;
 /**
  * @author Aditya Sharat
  */
-public interface Entity {
+public interface Property {
 
     @NotNull
     String getName();

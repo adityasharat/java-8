@@ -1,12 +1,12 @@
 package com.adityasharat.java.lesson2.life;
 
-import com.adityasharat.java.lesson2.Entity;
+import com.adityasharat.java.lesson2.Property;
 import com.sun.istack.internal.NotNull;
 
 /**
  * @author Aditya Sharat
  */
-public class Order implements Entity {
+public class Order implements Property {
 
     @NotNull
     private final Class clasz;

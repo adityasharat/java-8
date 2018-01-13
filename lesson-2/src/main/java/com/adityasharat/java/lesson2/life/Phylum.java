@@ -1,12 +1,12 @@
 package com.adityasharat.java.lesson2.life;
 
-import com.adityasharat.java.lesson2.Entity;
+import com.adityasharat.java.lesson2.Property;
 import com.sun.istack.internal.NotNull;
 
 /**
  * @author Aditya Sharat
  */
-public class Phylum implements Entity {
+public class Phylum implements Property {
 
     @NotNull
     private final Kingdom kingdom;

@@ -1,20 +1,31 @@
 package com.adityasharat.java.lesson2.life;
 
+import com.adityasharat.java.lesson2.Entity;
 import com.sun.istack.internal.NotNull;
 
 /**
  * @author Aditya Sharat
  */
-public class Class {
+public class Class implements Entity {
 
     @NotNull
-    public final Phylum phylum;
+    private final Phylum phylum;
 
     @NotNull
-    public final String name;
+    private final String name;
 
-    public Class(Phylum phylum, String name) {
+    public Class(@NotNull Phylum phylum, @NotNull String name) {
         this.phylum = phylum;
         this.name = name;
+    }
+
+    @NotNull
+    public Phylum getPhylum() {
+        return phylum;
+    }
+
+    @NotNull
+    public String getName() {
+        return name;
     }
 }

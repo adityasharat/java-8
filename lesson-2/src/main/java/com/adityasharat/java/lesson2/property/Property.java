@@ -1,4 +1,4 @@
-package com.adityasharat.java.lesson2.properties;
+package com.adityasharat.java.lesson2.property;
 
 import com.sun.istack.internal.NotNull;
 

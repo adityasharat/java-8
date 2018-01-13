@@ -1,20 +1,31 @@
 package com.adityasharat.java.lesson2.life;
 
+import com.adityasharat.java.lesson2.Entity;
 import com.sun.istack.internal.NotNull;
 
 /**
  * @author Aditya Sharat
  */
-public class Order {
+public class Order implements Entity {
 
     @NotNull
-    public final Class clasz;
+    private final Class clasz;
 
     @NotNull
-    public final String name;
+    private final String name;
 
-    public Order(Class clasz, String name) {
+    public Order(@NotNull Class clasz, @NotNull String name) {
         this.clasz = clasz;
         this.name = name;
+    }
+
+    @NotNull
+    public Class getClasz() {
+        return clasz;
+    }
+
+    @NotNull
+    public String getName() {
+        return name;
     }
 }

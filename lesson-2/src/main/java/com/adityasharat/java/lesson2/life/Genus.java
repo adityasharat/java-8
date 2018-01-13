@@ -1,20 +1,31 @@
 package com.adityasharat.java.lesson2.life;
 
+import com.adityasharat.java.lesson2.Entity;
 import com.sun.istack.internal.NotNull;
 
 /**
  * @author Aditya Sharat
  */
-public class Genus {
+public class Genus implements Entity {
 
     @NotNull
-    public final Family family;
+    private final Family family;
 
     @NotNull
-    public final String name;
+    private final String name;
 
-    public Genus(Family family, String name) {
+    public Genus(@NotNull Family family, @NotNull String name) {
         this.family = family;
         this.name = name;
+    }
+
+    @NotNull
+    public Family getFamily() {
+        return family;
+    }
+
+    @NotNull
+    public String getName() {
+        return name;
     }
 }

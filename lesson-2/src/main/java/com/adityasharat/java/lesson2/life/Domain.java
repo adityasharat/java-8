@@ -11,10 +11,11 @@ public class Domain implements Entity {
     @NotNull
     private final String name;
 
-    public Domain(String name) {
+    public Domain(@NotNull String name) {
         this.name = name;
     }
 
+    @NotNull
     public String getName() {
         return name;
     }
